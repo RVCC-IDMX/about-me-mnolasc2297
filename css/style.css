@@ -1,12 +1,13 @@
 body{
     font-family: 'Baloo 2', cursive;
+    font-size: 20px;
     background-color:#FFC573;
     color: #186A9E
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family:"Bebas Neue";
-    font-size: 30pt;
+    font-size: 40pt;
     text-align: center;
 }
 h1 {
@@ -16,6 +17,8 @@ h1 {
 header {
 text-align: center;
 }
+
+/*Hero Section*/
 
 #hero, footer {
     color: #186A9E;
@@ -29,12 +32,26 @@ text-align: center;
     width: 300px;
 }
 
+/*Bio Section*/
 #bio {
  text-align: center;
 } 
- 
+ /*Hobbies*/
 #hobbies ul li:nth-child(){
     color: #000
 
+}
+/*Gallery*/
+
+#gallery {
+    border: 2px solid
+}
+
+#gallery img {
+    max-width: 100%;
+}
+
+#gallery figure {
+    text-align: center;
 }
 
