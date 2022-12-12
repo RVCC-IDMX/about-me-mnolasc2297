@@ -1,8 +1,8 @@
 body{
     font-family: 'Baloo 2', cursive;
     font-size: 20px;
-    background-color:#FFC573;
-    color: #186A9E
+    background-color:#75f8cc;
+    color: black
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -21,9 +21,9 @@ text-align: center;
 /*Hero Section*/
 
 #hero, footer {
-    color: #186A9E;
-    border: 2px solid#186A9E;
-    background-color: #EBAB52;
+    color: black;
+    border: 5px solid black;
+    background-color: #75f8cc;
     text-align: center;
     padding:10px;
 }
@@ -37,15 +37,30 @@ text-align: center;
  text-align: center;
 } 
  /*Hobbies*/
-#hobbies ul li:nth-child{
-    color: #000;
+#hobbies ul li {
     text-align: center;
-
 }
+
+/*video*/
+#video {
+    border: 5px solid;
+    margin: bottom 2rem; 
+    text-align: center;;
+}
+
+#video img {
+    max-width: 100%;
+}
+
+#video figure {
+    text-align: center;
+}
+
+
 /*Gallery*/
 
 #gallery {
-    border: 2px solid;
+    border: 5px solid;
     margin: bottom 2rem; ;
 }
 
@@ -60,14 +75,14 @@ text-align: center;
 /*Literature*/
 #lit {
     border: 2px solid;
-    margin-bottom: 2rem;
+    margin-bottom: 30rem;
     text-align: center;
 
 }
 
 #lit div {
     padding:2rem;
-    max-width: 40 rem;
+    max-width: 30rem;
     margin: 0 auto;
 
 }
